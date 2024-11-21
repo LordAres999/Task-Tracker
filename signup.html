@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signup page</title>
+    <title>Signup Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-    <body>
-        <div id ="signup-container">
-            <form id="signup-form">
-                <h2 style="text-align: center;"><strong>SIGNUP PAGE</strong></h2>
-                <br><br>
-                <label for="username" id="Username"><b>Username: </b></label>
-                <input type="text" name="Username" placeholder="Enter Username">
-                <br><br>
-                <label for="emailid" id="email"><b>Email ID: </b></label>
-                <input type="email" name="email" placeholder="Enter Email ID">
-                <br><br>
-                <label for="pwd"><b>Password: </b></label>
-                <input type="password" name="pwd" placeholder="Enter Password">
-                <br><br>
-                <button type="submit" id="signup-btn"><a href="home.html">Sign up</a></button>
-                </form>
-        </div>
-        <script src="index.js"></script>
-    </body>
+<body>
+    <div id="signup-container">
+        <form id="signup-form" action="home.html" method="post">
+            <h2>SIGNUP PAGE</h2>
+            
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            
+            <button type="submit" id="signup-btn">Sign Up</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
 </html>
