@@ -6,6 +6,10 @@
     {
         "name":"Jim",
         "password":"1234567"
+    },
+    {
+        "name":"Mike",
+        "password":"54321"
     }
 ]
 }
